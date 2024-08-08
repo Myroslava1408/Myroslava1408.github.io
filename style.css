@@ -12,7 +12,7 @@ body {
     height: auto;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 header {
     padding-top: 28px;
@@ -39,18 +39,27 @@ header .logo-link h2 {
     font-weight: 500;
     line-height: 33px;
 }
+.section-first {
+    max-width: 1225px!important;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
 .section-first h1 {
     font-family: Poppins,sans-serif;
     font-size: 44px;
     font-weight: 700;
-    line-height: 47px;
+    line-height: 62px;
     text-align: left;
 }
 .section-first p {
     font-family: Poppins,sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 31px;
     text-align: left;
 }
 .section-first .first-text {
@@ -64,11 +73,18 @@ header .logo-link h2 {
     gap: 10px;
     border-radius: 8px;
     background: rgba(37, 69, 220, 1);
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
 }
-.section-first img {
-    max-width: 934px;
+.section-first .first-img {
+    max-width: 580px;
     width: 100%;
     height: 440px;
+    background: url("./img/first_sec.png") no-repeat center center;
+    background-size: cover;
 }
 .section-first .section-btn-mobile {
     width: 214px;
