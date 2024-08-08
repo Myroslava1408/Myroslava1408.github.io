@@ -44,3 +44,10 @@ window.addEventListener('scroll', function() {
     checkTextVisibility();
     checkSectionVisibility();
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(() => {
+        checkTextVisibility();
+        checkSectionVisibility();
+    }, 100);
+});
