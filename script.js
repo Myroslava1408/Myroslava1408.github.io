@@ -35,12 +35,17 @@ function checkSectionVisibility() {
     }
 }
 
+function onScroll() {
+    requestAnimationFrame(() => {
+        checkTextVisibility();
+        checkSectionVisibility();
+    });
+}
+
+
 document.addEventListener('DOMContentLoaded', function() {
     checkTextVisibility();
     checkSectionVisibility();
 });
 
-window.addEventListener('scroll', function() {
-    checkTextVisibility();
-    checkSectionVisibility();
-});
+window.addEventListener('scroll', onScroll);
