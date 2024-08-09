@@ -109,8 +109,7 @@ header .logo-link h2 {
 }
 .section-second {
     background: rgba(28, 29, 32, 1);
-    max-width: 1651px;
-    width: 100%;
+    max-width: 90%;
     margin: 0 auto;
     border: 1px solid rgba(44, 45, 50, 1);
     border-radius: 34px 34px 0px 0px;
